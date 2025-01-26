@@ -11,7 +11,7 @@ To quantize and sparsify the LLaMA family models. Specifically, we seek to reduc
 
 ### Project Overview
 
-We combined tensor parallel techniques from [gpt-fast](https://github.com/pytorch-labs/gpt-fast) with quantization methods from [torchao](https://github.com/pytorch/ao), and introduced a layer pruning approach. During the hackathon, we made direct modifications to code from the torchao/_models/llama repository and gpt-fast.
+We combined tensor parallel techniques from [gpt-fast](https://github.com/pytorch-labs/gpt-fast) with quantization methods from [torchao](https://github.com/pytorch/ao), and utilized an existing layer pruning approach. During the hackathon, we made direct modifications to code from the torchao/_models/llama repository and gpt-fast.
 
 ### Approach
 
